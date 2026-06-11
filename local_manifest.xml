@@ -30,12 +30,6 @@
         revision="lineage-23.2" />
 
     <project
-        name="LineageOS/android_device_mediatek_sepolicy"
-        path="device/mediatek/sepolicy"
-        remote="github"
-        revision="lineage-23.2" />
-
-    <project
         name="LineageOS/android_hardware_mediatek"
         path="hardware/mediatek"
         remote="github"
