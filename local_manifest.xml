@@ -35,4 +35,10 @@
         remote="github"
         revision="lineage-23.2" />
 
+    <project
+        name="LineageOS/android_hardware_motorola"
+        path="hardware/motorola"
+        remote="github"
+        revision="lineage-23.2" />
+
 </manifest>
