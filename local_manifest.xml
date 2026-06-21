@@ -13,6 +13,12 @@
         remote="github"
         revision="sixteen" />
 
+    <project
+        name="moto-manaus/kernel_motorola_manaus"
+        path="kernel/motorola/manaus"
+        remote="github"
+        revision="common" />
+
     <remote
         name="codeberg"
         fetch="https://codeberg.org/" />
