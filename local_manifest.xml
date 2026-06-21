@@ -5,7 +5,7 @@
         name="shipukacapri/device_motorola_manaus"
         path="device/motorola/manaus"
         remote="github"
-        revision="axion" />
+        revision="infinity" />
 
     <project
         name="moto-manaus/device_motorola_manaus-kernel"
