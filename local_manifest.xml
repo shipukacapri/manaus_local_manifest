@@ -42,9 +42,9 @@
         revision="lineage-23.2" />
 
     <project
-        name="moto-manaus/hardware_motorola"
+        name="shipsingh2002/hardware_motorola"
         path="hardware/motorola"
         remote="github"
-        revision="lineage-23.2" />
+        revision="edited" />
 
 </manifest>
