@@ -2,16 +2,16 @@
 <manifest>
 
     <project
-        name="shipukacapri/android_device_motorola_manaus"
+        name="shipukacapri/device_motorola_manaus"
         path="device/motorola/manaus"
         remote="github"
-        revision="lineage-23.2" />
+        revision="axion" />
 
     <project
-        name="shipukacapri/device_motorola_manaus-kernel"
+        name="moto-manaus/device_motorola_manaus-kernel"
         path="device/motorola/manaus-kernel"
         remote="github"
-        revision="lineage-23.2" />
+        revision="sixteen" />
 
     <remote
         name="codeberg"
@@ -24,19 +24,19 @@
         revision="lineage-23.2" />
 
     <project
-        name="LineageOS/android_device_mediatek_sepolicy_vndr"
+        name="moto-manaus/device_mediatek_sepolicy_vndr"
         path="device/mediatek/sepolicy_vndr"
         remote="github"
         revision="lineage-23.2" />
 
     <project
-        name="LineageOS/android_hardware_mediatek"
+        name="moto-manaus/hardware_mediatek"
         path="hardware/mediatek"
         remote="github"
         revision="lineage-23.2" />
 
     <project
-        name="LineageOS/android_hardware_motorola"
+        name="moto-manaus/hardware_motorola"
         path="hardware/motorola"
         remote="github"
         revision="lineage-23.2" />
