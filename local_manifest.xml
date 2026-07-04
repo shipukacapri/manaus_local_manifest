@@ -1,50 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <project
-        name="shipukacapri/device_motorola_manaus"
-        path="device/motorola/manaus"
-        remote="github"
-        revision="infinity" />
-
-    <project
-        name="moto-manaus/device_motorola_manaus-kernel"
-        path="device/motorola/manaus-kernel"
-        remote="github"
-        revision="sixteen" />
-
-    <project
-        name="moto-manaus/kernel_motorola_manaus"
-        path="kernel/motorola/manaus"
-        remote="github"
-        revision="common" />
+<!-- remotes -->
+    
+    <remote
+        name="rexix-codeberg"
+        fetch="https://codeberg.org/rexix01/" />
 
     <remote
-        name="codeberg"
-        fetch="https://codeberg.org/" />
+        name="shipukacapri"
+        fetch="https://github.com/shipukacapri/" />
 
+    <remote
+        name="moto-manaus"
+        fetch="https://github.com/moto-manaus/" />
+    
+    <remote
+        name="Evolution-X-Devices"
+        fetch="https://github.com/Evolution-X-Devices/" />
+
+<!--    <remote
+        name="github-Pong"
+        fetch="https://github.com/Pong-Development/" /> -->
+
+<!-- Device tree -->
+    
     <project
-        name="rexix01/vendor_motorola_manaus"
+        name="device_motorola_manaus"
+        path="device/motorola/manaus"
+        remote="shipukacapri"
+        revision="infinity" />
+    
+<!-- kernel tree -->
+    
+    <project
+        name="device_motorola_manaus-kernel"
+        path="device/motorola/manaus-kernel"
+        remote="moto-manaus"
+        revision="sixteen" />
+
+<!-- vendor tree -->
+    
+    <project
+        name="vendor_motorola_manaus"
         path="vendor/motorola/manaus"
-        remote="codeberg"
+        remote="rexix-codeberg"
         revision="lineage-23.2" />
 
+<!-- mtk SEpolicy tree -->
+    
     <project
-        name="moto-manaus/device_mediatek_sepolicy_vndr"
+        name="device_mediatek_sepolicy_vndr"
         path="device/mediatek/sepolicy_vndr"
-        remote="github"
+        remote="moto-manaus"
         revision="lineage-23.2" />
 
+<!-- mtk hardware tree -->
+    
     <project
-        name="moto-manaus/hardware_mediatek"
+        name="hardware_mediatek"
         path="hardware/mediatek"
-        remote="github"
+        remote="moto-manaus"
         revision="lineage-23.2" />
 
+<!-- moto hardware tree -->
+    
     <project
-        name="shipsingh2002/hardware_motorola"
+        name="hardware_motorola"
         path="hardware/motorola"
-        remote="github"
-        revision="edited" />
+        remote="moto-manaus"
+        revision="sixteen" />
+    
+    <!-- dolby tree -->
+    
+    <project
+        name="hardware_dolby"
+        path="hardware/dolby"
+        remote="Evolution-X-Devices"
+        revision="bka" />
 
 </manifest>
