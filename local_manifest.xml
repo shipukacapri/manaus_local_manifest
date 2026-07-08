@@ -39,6 +39,14 @@
         remote="moto-manaus"
         revision="sixteen" />
 
+    <!-- OSS kernel tree -->
+    
+    <project
+        name="kernel_motorola_manaus"
+        path="kernel/motorola/manaus"
+        remote="moto-manaus"
+        revision="common" />
+
 <!-- vendor tree -->
     
     <project
