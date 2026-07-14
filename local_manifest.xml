@@ -14,14 +14,7 @@
     <remote
         name="moto-manaus"
         fetch="https://github.com/moto-manaus/" />
-    
-    <remote
-        name="Evolution-X-Devices"
-        fetch="https://github.com/Evolution-X-Devices/" />
 
-<!--    <remote
-        name="github-Pong"
-        fetch="https://github.com/Pong-Development/" /> -->
 
 <!-- Device tree -->
     
@@ -29,9 +22,9 @@
         name="device_motorola_manaus"
         path="device/motorola/manaus"
         remote="shipukacapri"
-        revision="infinity" />
+        revision="infinity-16" />
     
-<!-- kernel tree -->
+<!-- prebuilt kernel tree -->
     
     <project
         name="device_motorola_manaus-kernel"
@@ -81,10 +74,5 @@
     
     <!-- dolby tree -->
     
-    <project
-        name="hardware_dolby"
-        path="hardware/dolby"
-        remote="Evolution-X-Devices"
-        revision="bka" />
 
 </manifest>
