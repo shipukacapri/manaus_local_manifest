@@ -22,7 +22,7 @@
         name="device_motorola_manaus"
         path="device/motorola/manaus"
         remote="shipukacapri"
-        revision="infinity-16" />
+        revision="voltage-16" />
     
 <!-- prebuilt kernel tree -->
     
