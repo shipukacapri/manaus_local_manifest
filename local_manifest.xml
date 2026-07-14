@@ -53,8 +53,8 @@
     <project
         name="device_mediatek_sepolicy_vndr"
         path="device/mediatek/sepolicy_vndr"
-        remote="moto-manaus"
-        revision="lineage-23.2" />
+        remote="shipukacapri"
+        revision="voltage" />
 
 <!-- mtk hardware tree -->
     
